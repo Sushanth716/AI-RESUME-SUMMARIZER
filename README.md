@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Resume Analyzer
 
-## Getting Started
+An AI-powered Resume Analyzer that evaluates resumes and provides ATS scoring, skills extraction, strengths & weaknesses analysis, and personalized recommendations.
 
-First, run the development server:
+## Features
+
+* ATS Compatibility Score
+* Resume Skill Extraction
+* Strengths Analysis
+* Weakness Detection
+* Personalized Recommendations
+* PDF Resume Upload
+* AI-Powered Resume Evaluation
+* Modern Responsive UI
+
+## Tech Stack
+
+### Frontend
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+
+### Backend
+
+* Next.js API Routes
+* PDF Parsing
+* AI Model Integration (Ollama / Gemini / OpenAI)
+
+## Project Workflow
+
+1. Upload Resume (PDF)
+2. Extract Resume Text
+3. Process Resume Content
+4. Generate ATS Score
+5. Extract Technical & Soft Skills
+6. Identify Strengths and Weaknesses
+7. Generate Actionable Recommendations
+8. Display Results Dashboard
+
+## Screenshots
+
+### Home Page
+
+(Add screenshot here)
+
+### Resume Upload
+
+(Add screenshot here)
+
+### Analysis Results
+
+(Add screenshot here)
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Sushanth716/AI-RESUME-SUMMARIZER.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Future Improvements
 
-## Learn More
+* Job Description Matching
+* Resume Keyword Optimization
+* Downloadable Analysis Reports
+* Resume Ranking System
+* Recruiter Dashboard
 
-To learn more about Next.js, take a look at the following resources:
+## Author
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Sushanth A
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+B.Tech Computer Science and Engineering (AI & ML)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+SRM Institute of Science and Technology
